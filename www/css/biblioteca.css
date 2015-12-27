@@ -1,0 +1,64 @@
+div.coluna{
+    width: 49%;
+    border: 1px solid;
+    float: left;
+    background-color: white;
+    opacity:0.85;
+}
+
+textarea{
+    height: 150px;
+}
+
+.long_text{
+    width: 600px;
+}
+
+input.medium_text{
+    width: 300px;
+}
+
+input.tiny_text{
+    width: 75px;
+}
+
+input.micro_text{
+    width: 50px;
+}
+
+
+table{
+    width: 654px;
+    table-layout:fixed;
+}
+
+td.td_title{
+    max-width: 150px;
+}
+
+input#fecha, input.fecha{
+    float: right;
+}
+
+input#fim{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+div#botao_emprestimo{
+    position: fixed;
+    top: 5px;
+    left: 47%;
+    border: 1px double black;
+    width: 64px;
+    height: 64px;
+    background-color: white;
+    display: none;
+}
+
+body{
+    background: url('../img/wallpaper.jpg')top right no-repeat; 
+    background-position:fixed;
+    background-attachment:fixed;
+}

@@ -1,0 +1,15 @@
+Existem ao todo três tipos de dados que são armazenados no banco de
+dados:
+
++-------------+  +-------------+  +------------+
+| LIVRO       |  | USUÁRIO     |  | EMPRÉSTIMO |
++-------------+  +-------------+  +------------+
+| ROWID       |  | ROWID       |  | Usuário    |
+| Título      |  | Nome        |  | Livro      |
+| Autor       |  | Observações |  | Data       |
+| Editora     |  | Endereço    |  +------------+
+| Exemplares  |  | Telefone    |
+| Observações |  +-------------+
+| Edição      |
+| Aquisição   |
++-------------+
